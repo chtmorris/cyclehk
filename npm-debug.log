@@ -1,0 +1,520 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'ember-cli' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose cache add [ 'ember-cli', null ]
+5 verbose cache add name=undefined spec="ember-cli" args=["ember-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'ember-cli',
+6 verbose parsed url   path: 'ember-cli',
+6 verbose parsed url   href: 'ember-cli' }
+7 silly lockFile 63e15bd3-ember-cli ember-cli
+8 verbose lock ember-cli /Users/agoosester/.npm/63e15bd3-ember-cli.lock
+9 silly lockFile 63e15bd3-ember-cli ember-cli
+10 silly lockFile 63e15bd3-ember-cli ember-cli
+11 verbose addNamed [ 'ember-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1645c26a-ember-cli ember-cli@
+14 verbose lock ember-cli@ /Users/agoosester/.npm/1645c26a-ember-cli.lock
+15 silly addNameRange { name: 'ember-cli', range: '*', hasData: false }
+16 verbose url raw ember-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './ember-cli' ]
+18 verbose url resolved https://registry.npmjs.org/ember-cli
+19 info trying registry request attempt 1 at 11:52:00
+20 http GET https://registry.npmjs.org/ember-cli
+21 http 200 https://registry.npmjs.org/ember-cli
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Tue, 27 May 2014 03:52:03 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"DC8CBLQ1XSOKJWAIORKULBEHP"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     'cache-control': 'max-age=1',
+22 silly registry.get     'content-length': '50173',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     age: '2826',
+22 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-hk90-HKG',
+22 silly registry.get     'x-cache': 'HIT, MISS',
+22 silly registry.get     'x-cache-hits': '1, 0',
+22 silly registry.get     'x-timer': 'S1401162722.229998,VS0,VE820',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'ember-cli', range: '*', hasData: true }
+24 silly addNameRange versions [ 'ember-cli',
+24 silly addNameRange   [ '0.0.0',
+24 silly addNameRange     '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.0.10',
+24 silly addNameRange     '0.0.11',
+24 silly addNameRange     '0.0.12',
+24 silly addNameRange     '0.0.13',
+24 silly addNameRange     '0.0.14',
+24 silly addNameRange     '0.0.15',
+24 silly addNameRange     '0.0.16',
+24 silly addNameRange     '0.0.18',
+24 silly addNameRange     '0.0.19',
+24 silly addNameRange     '0.0.20',
+24 silly addNameRange     '0.0.21',
+24 silly addNameRange     '0.0.22',
+24 silly addNameRange     '0.0.23',
+24 silly addNameRange     '0.0.24',
+24 silly addNameRange     '0.0.25',
+24 silly addNameRange     '0.0.27',
+24 silly addNameRange     '0.0.28' ] ]
+25 verbose addNamed [ 'ember-cli', '0.0.28' ]
+26 verbose addNamed [ '0.0.28', '0.0.28' ]
+27 silly lockFile ad1ee567-ember-cli-0-0-28 ember-cli@0.0.28
+28 verbose lock ember-cli@0.0.28 /Users/agoosester/.npm/ad1ee567-ember-cli-0-0-28.lock
+29 silly lockFile bc6508cd-g-ember-cli-ember-cli-0-0-28-tgz https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz
+30 verbose lock https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz /Users/agoosester/.npm/bc6508cd-g-ember-cli-ember-cli-0-0-28-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz',
+31 verbose addRemoteTarball   '697097249f50aa25f3ba72799b5391d09f27b3ea' ]
+32 info retry fetch attempt 1 at 11:52:02
+33 verbose fetch to= /var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/tmp.tgz
+34 http GET https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz
+35 http 200 https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz
+36 verbose tar unpack /var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/tmp.tgz
+37 silly lockFile 131e3fd9-22257-0-2614312449004501-package tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+38 verbose lock tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package /Users/agoosester/.npm/131e3fd9-22257-0-2614312449004501-package.lock
+39 silly lockFile 8a06176e-22257-0-2614312449004501-tmp-tgz tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/tmp.tgz
+40 verbose lock tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/tmp.tgz /Users/agoosester/.npm/8a06176e-22257-0-2614312449004501-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry Gruntfile.js
+46 silly gunzTarPerm extractEntry ARCHITECTURE.md
+47 silly gunzTarPerm extractEntry CHANGELOG.md
+48 silly gunzTarPerm extractEntry CONTRIBUTING.md
+49 silly gunzTarPerm extractEntry .jshintrc
+50 silly gunzTarPerm extractEntry LICENSE.md
+51 silly gunzTarPerm extractEntry .jshintignore
+52 silly gunzTarPerm extractEntry bin/ember
+53 silly gunzTarPerm extractEntry blueprint/package.json
+54 silly gunzTarPerm extractEntry blueprint/Brocfile.js
+55 silly gunzTarPerm extractEntry blueprint/gitignore
+56 silly gunzTarPerm extractEntry blueprint/app/app.js
+57 silly gunzTarPerm extractEntry blueprint/app/router.js
+58 silly gunzTarPerm extractEntry blueprint/app/controllers/.gitkeep
+59 silly gunzTarPerm extractEntry blueprint/app/helpers/.gitkeep
+60 silly gunzTarPerm extractEntry blueprint/app/index.html
+61 silly gunzTarPerm extractEntry blueprint/app/initializers/.gitkeep
+62 silly gunzTarPerm extractEntry blueprint/app/mixins/.gitkeep
+63 silly gunzTarPerm extractEntry blueprint/app/components/.gitkeep
+64 silly gunzTarPerm extractEntry blueprint/app/views/.gitkeep
+65 silly gunzTarPerm extractEntry blueprint/app/routes/index.js
+66 silly gunzTarPerm extractEntry blueprint/app/routes/.gitkeep
+67 silly gunzTarPerm extractEntry blueprint/app/styles/.gitkeep
+68 silly gunzTarPerm extractEntry blueprint/app/styles/app.css
+69 silly gunzTarPerm extractEntry blueprint/app/templates/.gitkeep
+70 silly gunzTarPerm extractEntry blueprint/app/templates/application.hbs
+71 silly gunzTarPerm extractEntry blueprint/app/utils/.gitkeep
+72 silly gunzTarPerm extractEntry blueprint/app/models/.gitkeep
+73 silly gunzTarPerm extractEntry blueprint/bower.json
+74 silly gunzTarPerm extractEntry blueprint/config/environment.js
+75 silly gunzTarPerm extractEntry blueprint/.jshintrc
+76 silly gunzTarPerm extractEntry blueprint/.bowerrc
+77 silly gunzTarPerm extractEntry blueprint/public/.gitkeep
+78 silly gunzTarPerm extractEntry blueprint/server/index.js
+79 silly gunzTarPerm extractEntry blueprint/server/.jshintrc
+80 silly gunzTarPerm extractEntry blueprint/server/routes/.gitkeep
+81 silly gunzTarPerm extractEntry blueprint/testem.json
+82 silly gunzTarPerm extractEntry blueprint/tests/test-helper.js
+83 silly gunzTarPerm extractEntry blueprint/tests/test-loader.js
+84 silly gunzTarPerm extractEntry blueprint/tests/.jshintrc
+85 silly gunzTarPerm extractEntry blueprint/tests/helpers/resolver.js
+86 silly gunzTarPerm extractEntry blueprint/tests/helpers/start-app.js
+87 silly gunzTarPerm extractEntry blueprint/tests/index.html
+88 silly gunzTarPerm extractEntry blueprint/tests/unit/.gitkeep
+89 silly gunzTarPerm extractEntry blueprint/vendor/_loader.js
+90 silly gunzTarPerm extractEntry lib/blueprint.js
+91 silly gunzTarPerm extractEntry lib/preprocessors.js
+92 silly gunzTarPerm extractEntry lib/cli/cli.js
+93 silly gunzTarPerm extractEntry lib/cli/index.js
+94 silly gunzTarPerm extractEntry lib/cli/lookup-command.js
+95 silly gunzTarPerm extractEntry lib/commands/build.js
+96 silly gunzTarPerm extractEntry lib/commands/generate.js
+97 silly gunzTarPerm extractEntry lib/commands/help.js
+98 silly gunzTarPerm extractEntry lib/commands/init.js
+99 silly gunzTarPerm extractEntry lib/commands/new.js
+100 silly gunzTarPerm extractEntry lib/commands/serve.js
+101 silly gunzTarPerm extractEntry lib/commands/test.js
+102 silly gunzTarPerm extractEntry lib/commands/version.js
+103 silly gunzTarPerm extractEntry lib/ext/promise.js
+104 silly gunzTarPerm extractEntry lib/broccoli/ember-app.js
+105 silly gunzTarPerm extractEntry lib/broccoli/testem.js
+106 silly gunzTarPerm extractEntry lib/preprocessors/registry.js
+107 silly gunzTarPerm extractEntry lib/utilities/build-builder.js
+108 silly gunzTarPerm extractEntry lib/utilities/clean-base-url.js
+109 silly gunzTarPerm extractEntry lib/utilities/ember-cli-version.js
+110 silly gunzTarPerm extractEntry lib/utilities/get-caller-file.js
+111 silly gunzTarPerm extractEntry lib/utilities/build-watcher.js
+112 silly gunzTarPerm extractEntry lib/utilities/require-as-hash.js
+113 silly gunzTarPerm extractEntry lib/utilities/require-local.js
+114 silly gunzTarPerm extractEntry lib/utilities/sequence.js
+115 silly gunzTarPerm extractEntry lib/utilities/string.js
+116 silly gunzTarPerm extractEntry lib/utilities/valid-project-name.js
+117 silly gunzTarPerm extractEntry lib/utilities/load-brocfile.js
+118 silly gunzTarPerm extractEntry lib/tasks/bower-install.js
+119 silly gunzTarPerm extractEntry lib/tasks/build.js
+120 silly gunzTarPerm extractEntry lib/tasks/create-and-step-into-directory.js
+121 silly gunzTarPerm extractEntry lib/tasks/install-blueprint.js
+122 silly gunzTarPerm extractEntry lib/tasks/npm-install.js
+123 silly gunzTarPerm extractEntry lib/tasks/serve.js
+124 silly gunzTarPerm extractEntry lib/tasks/test-server.js
+125 silly gunzTarPerm extractEntry lib/tasks/test.js
+126 silly gunzTarPerm extractEntry lib/tasks/server/express-server.js
+127 silly gunzTarPerm extractEntry lib/tasks/server/livereload-server.js
+128 silly gunzTarPerm extractEntry lib/tasks/server/middleware/history-support.js
+129 silly gunzTarPerm extractEntry lib/tasks/server/middleware/serve-files.js
+130 silly gunzTarPerm extractEntry lib/ui/index.js
+131 silly gunzTarPerm extractEntry lib/ui/internals/pleasant-progress.js
+132 silly gunzTarPerm extractEntry lib/models/command.js
+133 silly gunzTarPerm extractEntry lib/models/core-object.js
+134 silly gunzTarPerm extractEntry lib/models/file-info.js
+135 silly gunzTarPerm extractEntry lib/models/project.js
+136 silly gunzTarPerm extractEntry lib/models/task.js
+137 silly gunzTarPerm extractEntry .travis.yml
+138 silly gunzTarPerm extractEntry tests/acceptance/init-test.js
+139 silly gunzTarPerm extractEntry tests/acceptance/new-slow.js
+140 silly gunzTarPerm extractEntry tests/acceptance/smoke-test-slow.js
+141 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic/.npmignore
+142 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic/foo.txt
+143 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic/test.txt
+144 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic_2/.npmignore
+145 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic_2/foo.txt
+146 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic_2/test.txt
+147 silly gunzTarPerm extractEntry tests/fixtures/blueprints/with-templating/foo.txt
+148 silly gunzTarPerm extractEntry tests/helpers/assert.js
+149 silly gunzTarPerm extractEntry tests/helpers/conf.js
+150 silly gunzTarPerm extractEntry tests/helpers/ember.js
+151 silly gunzTarPerm extractEntry tests/helpers/mock-analytics.js
+152 silly gunzTarPerm extractEntry tests/helpers/mock-project.js
+153 silly gunzTarPerm extractEntry tests/helpers/mock-ui.js
+154 silly gunzTarPerm extractEntry tests/helpers/stub.js
+155 silly gunzTarPerm extractEntry tests/helpers/tmp.js
+156 silly gunzTarPerm extractEntry tests/unit/analytics-test.js
+157 silly gunzTarPerm extractEntry tests/unit/blueprint-test.js
+158 silly gunzTarPerm extractEntry tests/unit/jshint-test.js
+159 silly gunzTarPerm extractEntry tests/unit/cli/cli-test.js
+160 silly gunzTarPerm extractEntry tests/unit/cli/lookup-command-test.js
+161 silly gunzTarPerm extractEntry tests/unit/commands/generate-test.js
+162 silly gunzTarPerm extractEntry tests/unit/commands/help-test.js
+163 silly gunzTarPerm extractEntry tests/unit/commands/init-test.js
+164 silly gunzTarPerm extractEntry tests/unit/commands/new-test.js
+165 silly gunzTarPerm extractEntry tests/unit/commands/server-test.js
+166 silly gunzTarPerm extractEntry tests/unit/commands/test-test.js
+167 silly gunzTarPerm extractEntry tests/unit/models/command-test.js
+168 silly gunzTarPerm extractEntry tests/unit/models/file-info-test.js
+169 silly gunzTarPerm extractEntry tests/unit/preprocessors/registry-test.js
+170 silly gunzTarPerm extractEntry tests/unit/tasks/server/express-server-test.js
+171 silly gunzTarPerm extractEntry tests/unit/tasks/server/livereload-server-test.js
+172 silly gunzTarPerm extractEntry tests/unit/utilities/build-watcher-test.js
+173 silly gunzTarPerm extractEntry tests/unit/utilities/clean-base-url-test.js
+174 silly lockFile 131e3fd9-22257-0-2614312449004501-package tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+175 silly lockFile 131e3fd9-22257-0-2614312449004501-package tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+176 silly lockFile 8a06176e-22257-0-2614312449004501-tmp-tgz tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/tmp.tgz
+177 silly lockFile 8a06176e-22257-0-2614312449004501-tmp-tgz tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/tmp.tgz
+178 verbose tar pack [ '/Users/agoosester/.npm/ember-cli/0.0.28/package.tgz',
+178 verbose tar pack   '/var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package' ]
+179 verbose tarball /Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+180 verbose folder /var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+181 silly lockFile 131e3fd9-22257-0-2614312449004501-package tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+182 verbose lock tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package /Users/agoosester/.npm/131e3fd9-22257-0-2614312449004501-package.lock
+183 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+184 verbose lock tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz /Users/agoosester/.npm/cc868cad-npm-ember-cli-0-0-28-package-tgz.lock
+185 silly lockFile 131e3fd9-22257-0-2614312449004501-package tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+186 silly lockFile 131e3fd9-22257-0-2614312449004501-package tar:///var/folders/5k/c0kjfqmn6x76y48lc_8v5kz00000gn/T/npm-6368-FsGXHJrl/1401162722257-0.2614312449004501/package
+187 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+188 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+189 silly lockFile 77cedc59-ter-npm-ember-cli-0-0-28-package /Users/agoosester/.npm/ember-cli/0.0.28/package
+190 verbose lock /Users/agoosester/.npm/ember-cli/0.0.28/package /Users/agoosester/.npm/77cedc59-ter-npm-ember-cli-0-0-28-package.lock
+191 silly lockFile 77cedc59-ter-npm-ember-cli-0-0-28-package /Users/agoosester/.npm/ember-cli/0.0.28/package
+192 silly lockFile 77cedc59-ter-npm-ember-cli-0-0-28-package /Users/agoosester/.npm/ember-cli/0.0.28/package
+193 verbose tar unpack /Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+194 silly lockFile 9306f3f2-ter-npm-ember-cli-0-0-28-package tar:///Users/agoosester/.npm/ember-cli/0.0.28/package
+195 verbose lock tar:///Users/agoosester/.npm/ember-cli/0.0.28/package /Users/agoosester/.npm/9306f3f2-ter-npm-ember-cli-0-0-28-package.lock
+196 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+197 verbose lock tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz /Users/agoosester/.npm/cc868cad-npm-ember-cli-0-0-28-package-tgz.lock
+198 silly gunzTarPerm modes [ '755', '644' ]
+199 silly gunzTarPerm extractEntry package.json
+200 silly gunzTarPerm extractEntry .npmignore
+201 silly gunzTarPerm extractEntry README.md
+202 silly gunzTarPerm extractEntry Gruntfile.js
+203 silly gunzTarPerm extractEntry ARCHITECTURE.md
+204 silly gunzTarPerm extractEntry CHANGELOG.md
+205 silly gunzTarPerm extractEntry CONTRIBUTING.md
+206 silly gunzTarPerm extractEntry .jshintrc
+207 silly gunzTarPerm extractEntry LICENSE.md
+208 silly gunzTarPerm extractEntry .jshintignore
+209 silly gunzTarPerm extractEntry bin/ember
+210 silly gunzTarPerm extractEntry blueprint/package.json
+211 silly gunzTarPerm extractEntry blueprint/Brocfile.js
+212 silly gunzTarPerm extractEntry blueprint/gitignore
+213 silly gunzTarPerm extractEntry blueprint/app/app.js
+214 silly gunzTarPerm extractEntry blueprint/app/router.js
+215 silly gunzTarPerm extractEntry blueprint/app/controllers/.gitkeep
+216 silly gunzTarPerm extractEntry blueprint/app/helpers/.gitkeep
+217 silly gunzTarPerm extractEntry blueprint/app/index.html
+218 silly gunzTarPerm extractEntry blueprint/app/initializers/.gitkeep
+219 silly gunzTarPerm extractEntry blueprint/app/mixins/.gitkeep
+220 silly gunzTarPerm extractEntry blueprint/app/components/.gitkeep
+221 silly gunzTarPerm extractEntry blueprint/app/views/.gitkeep
+222 silly gunzTarPerm extractEntry blueprint/app/routes/index.js
+223 silly gunzTarPerm extractEntry blueprint/app/routes/.gitkeep
+224 silly gunzTarPerm extractEntry blueprint/app/styles/.gitkeep
+225 silly gunzTarPerm extractEntry blueprint/app/styles/app.css
+226 silly gunzTarPerm extractEntry blueprint/app/templates/.gitkeep
+227 silly gunzTarPerm extractEntry blueprint/app/templates/application.hbs
+228 silly gunzTarPerm extractEntry blueprint/app/utils/.gitkeep
+229 silly gunzTarPerm extractEntry blueprint/app/models/.gitkeep
+230 silly gunzTarPerm extractEntry blueprint/bower.json
+231 silly gunzTarPerm extractEntry blueprint/config/environment.js
+232 silly gunzTarPerm extractEntry blueprint/.jshintrc
+233 silly gunzTarPerm extractEntry blueprint/.bowerrc
+234 silly gunzTarPerm extractEntry blueprint/public/.gitkeep
+235 silly gunzTarPerm extractEntry blueprint/server/index.js
+236 silly gunzTarPerm extractEntry blueprint/server/.jshintrc
+237 silly gunzTarPerm extractEntry blueprint/server/routes/.gitkeep
+238 silly gunzTarPerm extractEntry blueprint/testem.json
+239 silly gunzTarPerm extractEntry blueprint/tests/test-helper.js
+240 silly gunzTarPerm extractEntry blueprint/tests/test-loader.js
+241 silly gunzTarPerm extractEntry blueprint/tests/.jshintrc
+242 silly gunzTarPerm extractEntry blueprint/tests/helpers/resolver.js
+243 silly gunzTarPerm extractEntry blueprint/tests/helpers/start-app.js
+244 silly gunzTarPerm extractEntry blueprint/tests/index.html
+245 silly gunzTarPerm extractEntry blueprint/tests/unit/.gitkeep
+246 silly gunzTarPerm extractEntry blueprint/vendor/_loader.js
+247 silly gunzTarPerm extractEntry lib/blueprint.js
+248 silly gunzTarPerm extractEntry lib/preprocessors.js
+249 silly gunzTarPerm extractEntry lib/cli/cli.js
+250 silly gunzTarPerm extractEntry lib/cli/index.js
+251 silly gunzTarPerm extractEntry lib/cli/lookup-command.js
+252 silly gunzTarPerm extractEntry lib/commands/build.js
+253 silly gunzTarPerm extractEntry lib/commands/generate.js
+254 silly gunzTarPerm extractEntry lib/commands/help.js
+255 silly gunzTarPerm extractEntry lib/commands/init.js
+256 silly gunzTarPerm extractEntry lib/commands/new.js
+257 silly gunzTarPerm extractEntry lib/commands/serve.js
+258 silly gunzTarPerm extractEntry lib/commands/test.js
+259 silly gunzTarPerm extractEntry lib/commands/version.js
+260 silly gunzTarPerm extractEntry lib/ext/promise.js
+261 silly gunzTarPerm extractEntry lib/broccoli/ember-app.js
+262 silly gunzTarPerm extractEntry lib/broccoli/testem.js
+263 silly gunzTarPerm extractEntry lib/preprocessors/registry.js
+264 silly gunzTarPerm extractEntry lib/utilities/build-builder.js
+265 silly gunzTarPerm extractEntry lib/utilities/clean-base-url.js
+266 silly gunzTarPerm extractEntry lib/utilities/ember-cli-version.js
+267 silly gunzTarPerm extractEntry lib/utilities/get-caller-file.js
+268 silly gunzTarPerm extractEntry lib/utilities/build-watcher.js
+269 silly gunzTarPerm extractEntry lib/utilities/require-as-hash.js
+270 silly gunzTarPerm extractEntry lib/utilities/require-local.js
+271 silly gunzTarPerm extractEntry lib/utilities/sequence.js
+272 silly gunzTarPerm extractEntry lib/utilities/string.js
+273 silly gunzTarPerm extractEntry lib/utilities/valid-project-name.js
+274 silly gunzTarPerm extractEntry lib/utilities/load-brocfile.js
+275 silly gunzTarPerm extractEntry lib/tasks/bower-install.js
+276 silly gunzTarPerm extractEntry lib/tasks/build.js
+277 silly gunzTarPerm extractEntry lib/tasks/create-and-step-into-directory.js
+278 silly gunzTarPerm extractEntry lib/tasks/install-blueprint.js
+279 silly gunzTarPerm extractEntry lib/tasks/npm-install.js
+280 silly gunzTarPerm extractEntry lib/tasks/serve.js
+281 silly gunzTarPerm extractEntry lib/tasks/test-server.js
+282 silly gunzTarPerm extractEntry lib/tasks/test.js
+283 silly gunzTarPerm extractEntry lib/tasks/server/express-server.js
+284 silly gunzTarPerm extractEntry lib/tasks/server/livereload-server.js
+285 silly gunzTarPerm extractEntry lib/tasks/server/middleware/history-support.js
+286 silly gunzTarPerm extractEntry lib/tasks/server/middleware/serve-files.js
+287 silly gunzTarPerm extractEntry lib/ui/index.js
+288 silly gunzTarPerm extractEntry lib/ui/internals/pleasant-progress.js
+289 silly gunzTarPerm extractEntry lib/models/command.js
+290 silly gunzTarPerm extractEntry lib/models/core-object.js
+291 silly gunzTarPerm extractEntry lib/models/file-info.js
+292 silly gunzTarPerm extractEntry lib/models/project.js
+293 silly gunzTarPerm extractEntry lib/models/task.js
+294 silly gunzTarPerm extractEntry .travis.yml
+295 silly gunzTarPerm extractEntry tests/acceptance/init-test.js
+296 silly gunzTarPerm extractEntry tests/acceptance/new-slow.js
+297 silly gunzTarPerm extractEntry tests/acceptance/smoke-test-slow.js
+298 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic/.npmignore
+299 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic/foo.txt
+300 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic/test.txt
+301 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic_2/.npmignore
+302 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic_2/foo.txt
+303 silly gunzTarPerm extractEntry tests/fixtures/blueprints/basic_2/test.txt
+304 silly gunzTarPerm extractEntry tests/fixtures/blueprints/with-templating/foo.txt
+305 silly gunzTarPerm extractEntry tests/helpers/assert.js
+306 silly gunzTarPerm extractEntry tests/helpers/conf.js
+307 silly gunzTarPerm extractEntry tests/helpers/ember.js
+308 silly gunzTarPerm extractEntry tests/helpers/mock-analytics.js
+309 silly gunzTarPerm extractEntry tests/helpers/mock-project.js
+310 silly gunzTarPerm extractEntry tests/helpers/mock-ui.js
+311 silly gunzTarPerm extractEntry tests/helpers/stub.js
+312 silly gunzTarPerm extractEntry tests/helpers/tmp.js
+313 silly gunzTarPerm extractEntry tests/unit/analytics-test.js
+314 silly gunzTarPerm extractEntry tests/unit/blueprint-test.js
+315 silly gunzTarPerm extractEntry tests/unit/jshint-test.js
+316 silly gunzTarPerm extractEntry tests/unit/cli/cli-test.js
+317 silly gunzTarPerm extractEntry tests/unit/cli/lookup-command-test.js
+318 silly gunzTarPerm extractEntry tests/unit/commands/generate-test.js
+319 silly gunzTarPerm extractEntry tests/unit/commands/help-test.js
+320 silly gunzTarPerm extractEntry tests/unit/commands/init-test.js
+321 silly gunzTarPerm extractEntry tests/unit/commands/new-test.js
+322 silly gunzTarPerm extractEntry tests/unit/commands/server-test.js
+323 silly gunzTarPerm extractEntry tests/unit/commands/test-test.js
+324 silly gunzTarPerm extractEntry tests/unit/models/command-test.js
+325 silly gunzTarPerm extractEntry tests/unit/models/file-info-test.js
+326 silly gunzTarPerm extractEntry tests/unit/preprocessors/registry-test.js
+327 silly gunzTarPerm extractEntry tests/unit/tasks/server/express-server-test.js
+328 silly gunzTarPerm extractEntry tests/unit/tasks/server/livereload-server-test.js
+329 silly gunzTarPerm extractEntry tests/unit/utilities/build-watcher-test.js
+330 silly gunzTarPerm extractEntry tests/unit/utilities/clean-base-url-test.js
+331 silly lockFile 9306f3f2-ter-npm-ember-cli-0-0-28-package tar:///Users/agoosester/.npm/ember-cli/0.0.28/package
+332 silly lockFile 9306f3f2-ter-npm-ember-cli-0-0-28-package tar:///Users/agoosester/.npm/ember-cli/0.0.28/package
+333 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+334 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+335 verbose chmod /Users/agoosester/.npm/ember-cli/0.0.28/package.tgz 644
+336 verbose chown /Users/agoosester/.npm/ember-cli/0.0.28/package.tgz [ 501, 20 ]
+337 silly lockFile bc6508cd-g-ember-cli-ember-cli-0-0-28-tgz https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz
+338 silly lockFile bc6508cd-g-ember-cli-ember-cli-0-0-28-tgz https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz
+339 silly lockFile ad1ee567-ember-cli-0-0-28 ember-cli@0.0.28
+340 silly lockFile ad1ee567-ember-cli-0-0-28 ember-cli@0.0.28
+341 silly lockFile 1645c26a-ember-cli ember-cli@
+342 silly lockFile 1645c26a-ember-cli ember-cli@
+343 silly resolved [ { name: 'ember-cli',
+343 silly resolved     version: '0.0.28',
+343 silly resolved     main: 'lib/cli/index.js',
+343 silly resolved     description: 'Command line tool for developing ambitious ember.js apps',
+343 silly resolved     trackingCode: 'UA-49225444-1',
+343 silly resolved     bin: { ember: './bin/ember' },
+343 silly resolved     scripts:
+343 silly resolved      { test: 'mocha --timeout 8000 --reporter spec tests/**/*-test.js tests/**/*/*-test.js tests/**/*/*/*-test.js',
+343 silly resolved        'test-all': 'mocha --timeout 8000 --reporter spec tests/**/*-test.js tests/**/*/*-test.js tests/**/*/*/*-test.js tests/**/*-slow.js',
+343 silly resolved        autotest: 'mocha --watch --reporter spec tests/**/*-test.js' },
+343 silly resolved     repository:
+343 silly resolved      { type: 'git',
+343 silly resolved        url: 'https://github.com/stefanpenner/ember-cli.git' },
+343 silly resolved     engines: { node: '>= 0.10.0' },
+343 silly resolved     keywords:
+343 silly resolved      [ 'ember.js',
+343 silly resolved        'ember',
+343 silly resolved        'cli',
+343 silly resolved        'app',
+343 silly resolved        'kit',
+343 silly resolved        'app-kit',
+343 silly resolved        'ember-app-kit' ],
+343 silly resolved     author: { name: 'Ember core team and ember cli contributors' },
+343 silly resolved     license: 'MIT',
+343 silly resolved     bugs: { url: 'https://github.com/stefanpenner/ember-cli/issues' },
+343 silly resolved     dependencies:
+343 silly resolved      { bower: '^1.3.2',
+343 silly resolved        'bower-config': '0.5.0',
+343 silly resolved        broccoli: '0.12.0',
+343 silly resolved        'broccoli-clean-css': '0.1.5',
+343 silly resolved        'broccoli-concat': '0.0.6',
+343 silly resolved        'broccoli-env': '0.0.1',
+343 silly resolved        'broccoli-es6-concatenator': '0.1.4',
+343 silly resolved        'broccoli-es6-import-validate': '0.1.0',
+343 silly resolved        'broccoli-export-tree': '0.3.1',
+343 silly resolved        'broccoli-file-mover': '~0.3.1',
+343 silly resolved        'broccoli-jshint': '0.4.0',
+343 silly resolved        'broccoli-merge-trees': '0.1.3',
+343 silly resolved        'broccoli-replace': '0.1.6',
+343 silly resolved        'broccoli-static-compiler': '0.1.4',
+343 silly resolved        'broccoli-uglify-js': '0.1.3',
+343 silly resolved        'broccoli-unwatched-tree': '~0.1.1',
+343 silly resolved        chalk: '0.4.0',
+343 silly resolved        configstore: '0.2.3',
+343 silly resolved        'connect-chain': '0.0.1',
+343 silly resolved        'connect-livereload': '0.3.2',
+343 silly resolved        diff: '~1.0.8',
+343 silly resolved        findup: '0.1.5',
+343 silly resolved        'fs-extra': '0.8.1',
+343 silly resolved        glob: '^3.2.9',
+343 silly resolved        inquirer: '0.4.1',
+343 silly resolved        leek: '0.0.4',
+343 silly resolved        'lodash-node': '2.4.1',
+343 silly resolved        loom: '^3.1.2',
+343 silly resolved        ncp: '0.5.0',
+343 silly resolved        nopt: '^2.1.2',
+343 silly resolved        npm: '1.4.6',
+343 silly resolved        'proxy-middleware': '0.5.0',
+343 silly resolved        'quick-temp': '0.1.1',
+343 silly resolved        readline2: '0.1.0',
+343 silly resolved        resolve: '0.6.2',
+343 silly resolved        rimraf: '^2.2.8',
+343 silly resolved        rsvp: '^3.0.6',
+343 silly resolved        testem: '0.6.15',
+343 silly resolved        through: '2.3.4',
+343 silly resolved        'tiny-lr': '0.0.5',
+343 silly resolved        'walk-sync': '0.1.2' },
+343 silly resolved     devDependencies:
+343 silly resolved      { chai: '^1.9.1',
+343 silly resolved        'chai-as-promised': '^4.1.1',
+343 silly resolved        configstore: '0.2.3',
+343 silly resolved        grunt: '0.4.4',
+343 silly resolved        'grunt-release': '0.7.0',
+343 silly resolved        mocha: '^1.18.0',
+343 silly resolved        'mocha-jshint': '0.0.7',
+343 silly resolved        rewire: '^2.0.0',
+343 silly resolved        underscore: '^1.6.0' },
+343 silly resolved     readme: '\n## ember-cli [![Build Status](https://travis-ci.org/stefanpenner/ember-cli.png?branch=master)](https://travis-ci.org/stefanpenner/ember-cli) [![Stories in Ready](https://badge.waffle.io/stefanpenner/ember-cli.png?label=ready&title=Ready)](https://waffle.io/stefanpenner/ember-cli)\n\nAn ember command line utility.\n\nSupports node 0.10.5 and npm 1.4.6.\n\n## Community\n* irc: #ember-cli on freenode\n* issues: [ember-cli/issues](https://github.com/stefanpenner/ember-cli/issues)\n* website: [iamstef.net/ember-cli](http://iamstef.net/ember-cli)\n\n\n[![ScreenShot](http://static.iamstef.net/ember-conf-2014-video.jpg)](https://www.youtube.com/watch?v=4D8z3972h64)\n\n\n## Warning\n\nAlthough potentially exciting, this is still really a WIP, use at your own risk.\n\n## Project Elements\nAdditional components of this project which are used runtime in your application:\n* [ember-jj-abrams-resolver](https://github.com/stefanpenner/ember-jj-abrams-resolver)\n* [loader](https://github.com/stefanpenner/loader.js)\n* [ember-cli-shims](https://github.com/stefanpenner/ember-cli-shims)\n* [ember-load-initializers](https://github.com/stefanpenner/ember-load-initializers)\n\n## Development Hints\n### Working with master\n\n``` sh\ngit clone https://github.com/stefanpenner/ember-cli.git\ncd ember-cli\nnpm link\n```\n\n`npm link` is very similar to `npm install -g` except that instead of downloading the package from the repo the just cloned `ember-cli/` folder becomes the global package. Any changes to the files in the `ember-cli/` folder will immediatly affect the global ember-cli package.\n\nNow you can use `ember-cli` via the command line:\n\n``` sh\nember new foo\ncd foo\nnpm link ember-cli\nember server\n```\n\n`npm link ember-cli` is needed because by default the globally installed `ember-cli` just loads the local `ember-cli` from the project. `npm link ember-cli` symlinks the global `ember-cli` package to the local `ember-cli` package. Now the `ember-cli` you cloned before is in three places: The folder you cloned it into, npm\'s folder where it stores global packages and the `ember-cli` project you just created.\n\nIf you upgrade an app running against Ember CLI master you will need to re-link to your checkout of Ember CLI by running `npm link ember-cli` in your project again.\n\nPlease read the official [npm-link documentation](https://www.npmjs.org/doc/cli/npm-link.html) and the [npm-link cheatsheet](https://blog.nodejitsu.com/npm-cheatsheet/#Linking_any_npm_package_locally) for more information.\n\n### Working with the tests\n\nUse `npm run-script autotest` to run the tests after every file change (Runs only fast tests). Use `npm test` to run them once.\n\nFor a full test run which includes some very slow acceptance tests,\nplease run: `npm run-script test-all`. Please note, this is what travis\nruns.\n\nTo exclude a test or test suite append a `.skip` to `it()` or `describe()` respectively (e.g. `it.skip(...)`). To focus on a certain test or test suite append `.only`.\n\nPlease read the official [mocha documentation](http://visionmedia.github.io/mocha) for more information.\n\n## License\n\nember-cli is [MIT Licensed](https://github.com/stefanpenner/ember-cli/blob/master/LICENSE.md).\n',
+343 silly resolved     readmeFilename: 'README.md',
+343 silly resolved     _id: 'ember-cli@0.0.28',
+343 silly resolved     dist: { shasum: '697097249f50aa25f3ba72799b5391d09f27b3ea' },
+343 silly resolved     _from: 'ember-cli@',
+343 silly resolved     _resolved: 'https://registry.npmjs.org/ember-cli/-/ember-cli-0.0.28.tgz' } ]
+344 info install ember-cli@0.0.28 into /usr/local/lib
+345 info installOne ember-cli@0.0.28
+346 info /usr/local/lib/node_modules/ember-cli unbuild
+347 verbose tar unpack /Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+348 silly lockFile 27815105-local-lib-node-modules-ember-cli tar:///usr/local/lib/node_modules/ember-cli
+349 verbose lock tar:///usr/local/lib/node_modules/ember-cli /Users/agoosester/.npm/27815105-local-lib-node-modules-ember-cli.lock
+350 silly lockFile cc868cad-npm-ember-cli-0-0-28-package-tgz tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz
+351 verbose lock tar:///Users/agoosester/.npm/ember-cli/0.0.28/package.tgz /Users/agoosester/.npm/cc868cad-npm-ember-cli-0-0-28-package-tgz.lock
+352 silly gunzTarPerm modes [ '755', '644' ]
+353 error Error: EACCES, mkdir '/usr/local/lib/node_modules/ember-cli'
+353 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/ember-cli']
+353 error   errno: 3,
+353 error   code: 'EACCES',
+353 error   path: '/usr/local/lib/node_modules/ember-cli',
+353 error   fstream_type: 'Directory',
+353 error   fstream_path: '/usr/local/lib/node_modules/ember-cli',
+353 error   fstream_class: 'DirWriter',
+353 error   fstream_stack:
+353 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+353 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+353 error      'Object.oncomplete (fs.js:107:15)' ] }
+354 error Please try running this command again as root/Administrator.
+355 error System Darwin 13.1.0
+356 error command "node" "/usr/local/bin/npm" "install" "-g" "ember-cli"
+357 error cwd /Users/agoosester/Documents/Dev/cyclehk
+358 error node -v v0.10.15
+359 error npm -v 1.3.5
+360 error path /usr/local/lib/node_modules/ember-cli
+361 error fstream_path /usr/local/lib/node_modules/ember-cli
+362 error fstream_type Directory
+363 error fstream_class DirWriter
+364 error code EACCES
+365 error errno 3
+366 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/ember-cli'
+367 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+367 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+367 error fstream_stack Object.oncomplete (fs.js:107:15)
+368 verbose exit [ 3, true ]
