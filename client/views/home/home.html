@@ -8,22 +8,26 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-md-4 circle-red" id="circle">
-          <p class="circle-text">Routes</p>
-        </div>
-        <div class="col-xs-6 col-md-4 circle-orange" id="circle">
-          <p class="circle-text">Info</p>
-        </div>
-        <div class="col-xs-6 col-md-4 circle-green" id="circle">
-          <p class="circle-text">Resources</p>
-        </div>
+        <a href="{{pathFor 'routes'}}">
+          <div class="col-xs-6 col-md-4 circle-red" id="circle">
+            <p class="circle-text">Routes</p>
+          </div>
+        </a>
+        <a href="{{pathFor 'info'}}">
+          <div class="col-xs-6 col-md-4 circle-orange" id="circle">
+            <p class="circle-text">Info</p>
+          </div>
+        </a>
+        <a href="{{pathFor 'resources'}}">
+          <div class="col-xs-6 col-md-4 circle-green" id="circle">
+            <p class="circle-text">Resources</p>
+          </div>
+        </a>
       </div>
     </div>
 
     <div class="container">
       <p class="home-tagline">Cycle HK aims to provide Hong Kong’s cycling community with information to make cycling easier and safer</p>
     </div>
-
-
 
 </template>
